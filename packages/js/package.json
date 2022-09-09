@@ -25,6 +25,6 @@
   },
   "devDependencies": {
     "@lough/build-cli": "^0.0.5",
-    "@lough/git-cli": "^0.0.3"
+    "@lough/git-cli": "^0.0.4"
   }
 }
