@@ -1,0 +1,18 @@
+{
+  "name": "monorepo-react",
+  "version": "0.0.0",
+  "description": "monorepo react.",
+  "author": "City <city@nanzc.com>",
+  "homepage": "",
+  "license": "MIT",
+  "type": "module",
+  "main": "es/index.js",
+  "module": "es/index.js",
+  "unpkg": "dist/index.min.js",
+  "types": "es/index.d.ts",
+  "files": [
+    "dist",
+    "es"
+  ],
+  "scripts": {}
+}

@@ -1,0 +1,21 @@
+{
+  "name": "monorepo-js",
+  "version": "0.0.0",
+  "description": "monorepo js.",
+  "author": "City <city@nanzc.com>",
+  "homepage": "",
+  "license": "MIT",
+  "type": "module",
+  "main": "es/index.js",
+  "module": "es/index.js",
+  "unpkg": "dist/index.min.js",
+  "types": "es/index.d.ts",
+  "files": [
+    "dist",
+    "es"
+  ],
+  "scripts": {},
+  "dependencies": {
+    "@lyrical/js": "^0.5.6"
+  }
+}
