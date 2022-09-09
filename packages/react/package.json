@@ -16,7 +16,9 @@
   ],
   "scripts": {
     "build": "lough-build",
-    "changelog": "lough-git changelog -t monorepo-react* -c ."
+    "changelog": "lough-git changelog -t monorepo-react* -c .",
+    "preversion": "npm run changelog",
+    "version": "npm run build"
   },
   "devDependencies": {
     "@lough/build-cli": "^0.0.5",

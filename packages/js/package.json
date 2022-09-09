@@ -16,7 +16,9 @@
   ],
   "scripts": {
     "build": "lough-build",
-    "changelog": "lough-git changelog -t monorepo-js* -c ."
+    "changelog": "lough-git changelog -t monorepo-js* -c .",
+    "preversion": "npm run changelog",
+    "version": "npm run build"
   },
   "dependencies": {
     "@lyrical/js": "^0.5.6"
