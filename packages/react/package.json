@@ -15,9 +15,11 @@
     "es"
   ],
   "scripts": {
-    "build": "lough-build"
+    "build": "lough-build",
+    "changelog": "lough-git changelog -t monorepo-react* -c ."
   },
   "devDependencies": {
-    "@lough/build-cli": "^0.0.5"
+    "@lough/build-cli": "^0.0.5",
+    "@lough/git-cli": "^0.0.3"
   }
 }
