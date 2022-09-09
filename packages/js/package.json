@@ -14,8 +14,13 @@
     "dist",
     "es"
   ],
-  "scripts": {},
+  "scripts": {
+    "build": "lough-build"
+  },
   "dependencies": {
     "@lyrical/js": "^0.5.6"
+  },
+  "devDependencies": {
+    "@lough/build-cli": "^0.0.5"
   }
 }

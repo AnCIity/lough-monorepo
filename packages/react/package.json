@@ -14,5 +14,10 @@
     "dist",
     "es"
   ],
-  "scripts": {}
+  "scripts": {
+    "build": "lough-build"
+  },
+  "devDependencies": {
+    "@lough/build-cli": "^0.0.5"
+  }
 }
